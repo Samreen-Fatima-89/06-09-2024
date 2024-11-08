@@ -1,0 +1,68 @@
+* {
+  font-family: Montserrat !important;
+}
+body {
+  background-color: #c8e8e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 800px;
+}
+.content {
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  padding: 15px;
+}
+.left-side {
+  margin-right: 50px;
+  text-align: center;
+  margin-top: 3px;
+}
+h2 {
+  margin-top: 0px;
+  margin-bottom: 2px;
+  color: #3e2093;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+input {
+  margin: 5px 0px;
+  width: 70%;
+  padding: 5px;
+  background-color: #f0f1f6;
+  border: none;
+  border-radius: 5px;
+}
+textarea {
+  width: 70%;
+  height: 60px;
+  background-color: #f0f1f6;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+}
+i {
+  color: #3e2093;
+  font-size: 20px;
+}
+button {
+  background-color: #3e2093;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.topic {
+  font-weight: bold;
+}
+.text-one,
+.text-two {
+  font-size: 10px;
+}
